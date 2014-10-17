@@ -33,7 +33,7 @@ Pixel Art to CSS generator
 
 * Затем в своем репозитории создаем файл `CNAME` (обязательно в верхнем регистре !!!)
 
-    touch CNAME
+		touch CNAME
     
 
 * В этом файле прописываем своё доменное имя в таком виде
@@ -42,9 +42,10 @@ Pixel Art to CSS generator
 
 * Добавляем `CNAME` в репозиторий на сервер
 
-    git add CNAME
-    git commit -am "Добавлен CNAME"
-    git push origin master
+	    git add CNAME
+	    git commit -am "Добавлен CNAME"
+	    git push origin master
+    
 * На github переходим в `settings` и убеждаемся, что ваша страничка отображается по вашему адресу 
 
 ![](http://i.imgur.com/xRReZwz.png)
