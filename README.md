@@ -23,9 +23,9 @@ Pixel Art to CSS generator
 
 ![](http://i.imgur.com/8Rycaui.png)
 
-* Создаем ветку `gh-pages`
+* Создаем ветку `gh-pages` =>
 
-git checkout -b gh-pages
+		git checkout -b gh-pages
 
 устанавливаем эту ветку по умолчанию
 
