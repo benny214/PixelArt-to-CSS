@@ -1,102 +1,98 @@
 
- body {
+@import url(http://fonts.googleapis.com/css?family=VT323);
 
-     background: #e5e5e5;
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=cyrillic);
 
- }
-
- #drawing-board {
-
-     width: 960px;
-
-     margin: 25px auto;
-
-     border: 1px solid #ccc;
-
-     background: #fff;
-
-     padding: 10px;
-
-     overflow: auto;
-
- }
-
- #draw-bg {
-
-     width: 320px;
-
-     height: 320px;
-
-     float: left;
-
- }
-
- #draw {
-
-     display: block;
-
-     width: 320px;
-
-     height: 320px;
-
- }
-
- #drawing {
-
-     background: #fff;
-
-     width: 308px;
-
-     height: 318px;
-
-     border: 1px solid #CCC;
-
-     margin: 0 10px;
-
-     padding: 0;
-
-     float: left;
-
-     resize: none;
-
-     font: normal 1em/1 monospace;
-
- }
-
- #output {
-
-     background: #fff;
-
-     width: 308px;
-
-     height: 318px;
-
-     border: 1px solid #CCC;
-
-     margin: 0;
-
-     padding: 0;
-
-     float: left;
-
-     resize: none;
-
-     font: normal 1em/1 monospace;
-
- }
-
- #clear-all {
-
-     margin: 10px 0 0 0;
-
-     float: left;
-
- }
-
- #generate-code {
-
-     margin: 10px 0 0 0;
-
-     float: right;
-
- }
+body {
+    padding: 0;
+    margin: 0;
+    background: url(../img/body-bg.png);
+    font-family: 'Roboto Slab', serif;
+}
+h1 {
+    text-align: center;
+    background: #fff;
+    opacity: 0.8;
+    margin: 50px auto;
+    width: 500px;
+    border-radius: 5px;
+    font-family: 'VT323';
+    font-size: 66px;
+}
+p {
+    text-align: center;
+    color: #fff;
+}
+#drawing-board {
+    width: 960px;
+    margin: 105px auto;
+    border: 1px solid #ccc;
+    background: #fff;
+    opacity: 0.9;
+    padding: 100px 100px 10px 100px;
+    overflow: auto;
+    border-radius: 5px;
+}
+#draw-bg {
+    width: 320px;
+    height: 320px;
+    float: left;
+}
+#draw {
+    display: block;
+    width: 320px;
+    height: 320px;
+}
+#drawing {
+    background: #fff;
+    width: 308px;
+    height: 318px;
+    border: 1px solid #CCC;
+    margin: 0 10px;
+    padding: 0;
+    float: left;
+    resize: none;
+    font: normal 1em/1 monospace;
+}
+#output {
+    background: #fff;
+    width: 308px;
+    height: 318px;
+    border: 1px solid #CCC;
+    margin: 0;
+    padding: 0;
+    float: left;
+    resize: none;
+    font: normal 1em/1 monospace;
+}
+#clear-all {
+    margin: 30px;
+    float: left;
+}
+#generate-code {
+    margin: 30px 0 0 0;
+    float: right;
+}
+.btn-hot,
+.btn-primary {
+    color: #fff;
+    background-color: #db5566;
+    border-bottom: 2px solid #af4451;
+}
+.btn-hot:hover,
+.btn-sky.active:focus,
+.btn-hot:focus,
+.open>.dropdown-toggle.btn-hot,
+.btn-hot:active {
+    color: #fff;
+    background-color: #df6a78;
+    border-bottom: 2px solid #b25560;
+    outline: none;
+}
+.btn-hot:active,
+.btn-hot.active {
+    color: #fff;
+    background-color: #c04b59;
+    border-top: 2px solid #9a3c47;
+    margin-top: 2px;
+}

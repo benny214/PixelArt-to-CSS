@@ -18,16 +18,21 @@
 
 <body>
     <h1>PixelArt to CSS</h1>
-    <div id="drawing-board">
-        <div id="draw-bg">
-            <canvas id="draw" width="320" height="320">Браузер не поддерживает Canvas</canvas>
+    <p>Рисуйте пикселями и генерируйте CSS код</p>
+    <div class="wrapper">
+        <div id="drawing-board">
+
+            <div id="draw-bg">
+                <canvas id="draw" width="320" height="320">Браузер не поддерживает Canvas</canvas>
+            </div>
+            <div id="drawing">
+                <div class="pixels"></div>
+            </div>
+            <textarea id="output"></textarea>
+            <a href="#" id="clear-all">Очистить поле</a>
+            <a href="#" id="generate-code">Сгенерировать CSS</a>
         </div>
-        <div id="drawing">
-            <div class="pixels"></div>
-        </div>
-        <textarea id="output"></textarea>
-        <a href="#" id="clear-all">Очистить поле</a>
-        <a href="#" id="generate-code">Сгенерировать CSS</a>
+
     </div>
 
 
