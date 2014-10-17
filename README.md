@@ -12,7 +12,7 @@ Pixel Art to CSS generator
 
 ## Получение домена .tk бесплатно и привязка его к репозиторию GitHub  ##
 
-* Идём на [freenom.com](http://freenom.com/) и регистрируемся там и регистрируем домен, после переходим в manage domain =>
+* Идём на [freenom.com](http://freenom.com/) регистрируемся там и регистрируем домен, после переходим в manage domain =>
 ![](http://i.imgur.com/98bYO32.png) 
 
 * Затем переходим в Manage Freenom DNS =>
