@@ -1,0 +1,102 @@
+
+ body {
+
+     background: #e5e5e5;
+
+ }
+
+ #drawing-board {
+
+     width: 960px;
+
+     margin: 25px auto;
+
+     border: 1px solid #ccc;
+
+     background: #fff;
+
+     padding: 10px;
+
+     overflow: auto;
+
+ }
+
+ #draw-bg {
+
+     width: 320px;
+
+     height: 320px;
+
+     float: left;
+
+ }
+
+ #draw {
+
+     display: block;
+
+     width: 320px;
+
+     height: 320px;
+
+ }
+
+ #drawing {
+
+     background: #fff;
+
+     width: 308px;
+
+     height: 318px;
+
+     border: 1px solid #CCC;
+
+     margin: 0 10px;
+
+     padding: 0;
+
+     float: left;
+
+     resize: none;
+
+     font: normal 1em/1 monospace;
+
+ }
+
+ #output {
+
+     background: #fff;
+
+     width: 308px;
+
+     height: 318px;
+
+     border: 1px solid #CCC;
+
+     margin: 0;
+
+     padding: 0;
+
+     float: left;
+
+     resize: none;
+
+     font: normal 1em/1 monospace;
+
+ }
+
+ #clear-all {
+
+     margin: 10px 0 0 0;
+
+     float: left;
+
+ }
+
+ #generate-code {
+
+     margin: 10px 0 0 0;
+
+     float: right;
+
+ }
