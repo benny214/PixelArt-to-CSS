@@ -107,3 +107,44 @@ $(document).ready(function () {
 
     buildGrids(pixel_size, "#eee", (pixel_size * 5));
 });
+/*
+ Добавлена сетка 10х10 и поставлена как фон в канвасе 
+  */
+function buildGrids(gridPixelSize, gridColor, gridGap) {
+    var canvas = document.createElement("canvas");
+    canvas.width = $('#draw').width();
+    canvas.height = $('#draw').height();
+    var ctx = canvas.getContext('2d');
+
+    ctx.lineWidth = 0.5;
+    ctx.strokeStyle = gridColor;
+
+    for (var i = 0; i <= canvas.height; i = i + gridPixelSize) {
+        ctx.beginPath();
+        ctx.moveTo(0, i);
+        ctx.lineTo(canvas.width, i);
+        if (i % parseInt(gridGap) == 0) {
+            ctx.lineWidth = 2;
+        } else {
+            ctx.lineWidth = 0.5;
+        }
+        ctx.closePath();
+        ctx.stroke();
+    }
+    for (var j = 0; j <= canvas.width; j = j + gridPixelSize) {
+        ctx.beginPath();
+        ctx.moveTo(j, 0);
+        ctx.lineTo(j, canvas.height);
+        if (j % parseInt(gridGap) == 0) {
+            ctx.lineWidth = 2;
+        } else {
+            ctx.lineWidth = 0.5;
+        }
+        ctx.closePath();
+        ctx.stroke();
+    }
+    var uri = canvas.toDataURL('image/png');
+    $('#draw-bg').css('background-image', 'url(' + uri + ')');
+}
+buildGrids(pixel_size, "#eee", (pixel_size * 5));
+});
