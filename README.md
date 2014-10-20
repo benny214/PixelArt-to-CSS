@@ -1,4 +1,4 @@
-<<<<<<< .mine
+
 Pixel Art to CSS generator
 --------------------------
 
