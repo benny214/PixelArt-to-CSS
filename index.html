@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>PixelArt to CSS</h1>
+    <p>Рисуйте пикселями и генерируйте CSS код</p>
+    <div class="wrapper">
+        <div id="drawing-board">
+
+            <div id="draw-bg">
+                <canvas id="draw" width="320" height="320">Браузер не поддерживает Canvas</canvas>
+            </div>
+            <div id="drawing">
+                <div class="pixels"></div>
+            </div>
+            <textarea id="output"></textarea>
+            <a href="#" id="clear-all">Очистить поле</a>
+            <a href="#" id="generate-code">Сгенерировать CSS</a>
+        </div>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script src="js/common.js"></script>
+</body>
+
+</html>
