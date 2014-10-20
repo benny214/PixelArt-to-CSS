@@ -1,6 +1,5 @@
 
 @import url(http://fonts.googleapis.com/css?family=VT323);
-
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=cyrillic);
 
 body {
@@ -25,14 +24,15 @@ p {
 }
 #drawing-board {
     width: 960px;
-    margin: 105px auto;
-    border: 1px solid #ccc;
+    margin: 40px auto;
+    border: 2px solid #ccc;
     background: #fff;
     opacity: 0.9;
     padding: 100px 100px 10px 100px;
     overflow: auto;
     border-radius: 5px;
 }
+
 #draw-bg {
     width: 320px;
     height: 320px;
@@ -43,6 +43,7 @@ p {
     width: 320px;
     height: 320px;
 }
+
 #drawing {
     background: #fff;
     width: 308px;
@@ -73,26 +74,22 @@ p {
     margin: 30px 0 0 0;
     float: right;
 }
-.btn-hot,
-.btn-primary {
+
+.btn-hot {
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 4px;
     color: #fff;
     background-color: #db5566;
     border-bottom: 2px solid #af4451;
 }
 .btn-hot:hover,
-.btn-sky.active:focus,
 .btn-hot:focus,
-.open>.dropdown-toggle.btn-hot,
 .btn-hot:active {
-    color: #fff;
     background-color: #df6a78;
-    border-bottom: 2px solid #b25560;
-    outline: none;
 }
 .btn-hot:active,
 .btn-hot.active {
     color: #fff;
     background-color: #c04b59;
-    border-top: 2px solid #9a3c47;
-    margin-top: 2px;
 }
