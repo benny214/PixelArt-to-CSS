@@ -106,4 +106,4 @@ Pixel Art to CSS generator
 ![](http://i.imgur.com/xRReZwz.png)
 
 через 10-20 минут всё должно работать.
->>>>>>> .theirs
+
