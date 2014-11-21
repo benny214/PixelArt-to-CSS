@@ -24,27 +24,25 @@ Pixel Art to CSS generator
 
 ![](http://i.imgur.com/8Rycaui.png)
 
-* Создаем ветку `gh-pages`
 
-    git checkout -b gh-pages
+*  `git checkout -b gh-pages`
+
 устанавливаем эту ветку по умолчанию
 
 ![](http://i.imgur.com/Hve5dSr.png)
 
 * Затем в своем репозитории создаем файл `CNAME` (обязательно в верхнем регистре !!!)
 
-    touch CNAME
+ `touch CNAME`
     
-
 * В этом файле прописываем своё доменное имя в таком виде
 
 ![](http://i.imgur.com/24vbNee.png)
 
 * Добавляем `CNAME` в репозиторий на сервер
-
-    git add CNAME
-    git commit -am "Добавлен CNAME"
-    git push origin master
+*  `git add CNAME` 
+* `git commit -am "Добавлен CNAME"` 
+* `git push origin master`
 * На github переходим в `settings` и убеждаемся, что ваша страничка отображается по вашему адресу 
 
 ![](http://i.imgur.com/xRReZwz.png)
